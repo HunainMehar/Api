@@ -1,13 +1,9 @@
-/* .record {
-  border-bottom: 3px dotted red;
-} */
-
-.btn {
-  margin-top: 20px;
-  margin-bottom: 20px;
+.btn  {
+  display: flex;
+  flex-direction: column;
 }
 
-.edit,
-.delete {
-  margin-top: -10px;
-}
+.delete, #LoadData {
+  margin-top: 10px;
+} 
+
